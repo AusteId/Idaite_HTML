@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --font-family_narrow: "Quicksand", sans-serif;
+    --font-family_wider: "Noto Serif", serif;
+    --dark-blue-color: #252B42;
+}
+
+.logo-features {
+    font-family: var(--font-family_wider);
+}
+
+.text-features {
+    font-family: var(--font-family_narrow);
+}
+
+.button-features {
+    width: 40vw;
+}
+
+.section-with-background-img {
+    background-image: url(../images/family.jpg);
+    height: 70%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.section-with-icons-features {
+    background-color: var(--dark-blue-color);
+}
+
+.footer-features {
+    background-color: var(--dark-blue-color);
+    font-size: small;
+}
+
+.footer-text-features, .comments-text-features, .section-with-icons-text-features {
+    color: #ffffff !important;
+    font-family: var(--font-family_wider);
+}
+
+.section-with-icons-text-features {
+    font-size: medium !important;
+}
+
+p.section-with-icons-text-features {
+    font-size: smaller !important;
+    font-weight:300;
+}
+
+.navbar-features:hover {
+    background-color: #d37a7a;
+}
+
